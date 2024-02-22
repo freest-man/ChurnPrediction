@@ -22,7 +22,7 @@ st.set_page_config(
 
 col1, col2 = st.columns([1,10])  # Adjust the column ratios as needed
 
-logo = Image.open(r"C:\Users\kbfif\Downloads\banking.png")  
+logo = Image.open(r"https://github.com/freest-man/ChurnPrediction/blob/main/banking.png?raw=true")  
 
 with col1:
     st.image(logo, width=50)
