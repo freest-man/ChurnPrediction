@@ -43,6 +43,9 @@ st.markdown("""
 """)
 st.title('Upload the csv') 
 
+url = "https://raw.githubusercontent.com/freest-man/ChurnPrediction/main/train.csv"
+
+
 uploaded_file = st.file_uploader("Choose a file")
 if uploaded_file is not None:
     dataframe = pd.read_csv(uploaded_file)
@@ -50,7 +53,7 @@ if uploaded_file is not None:
     
 
     if st.button("Run Churn Prediction"):
-        train_data = pd.read_csv(r"C:\Users\kbfif\Downloads\Churn/train.csv")
+        train_data = pd.read_csv(url)
         test_data = dataframe
 
         with st.spinner('Please Wait...'):
