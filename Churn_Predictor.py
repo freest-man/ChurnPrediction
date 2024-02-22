@@ -46,9 +46,9 @@ url = "https://raw.githubusercontent.com/freest-man/ChurnPrediction/main/train.c
 
 st.markdown(""
 
-Testing Data -> [https://raw.githubusercontent.com/freest-man/ChurnPrediction/main/train.csv]
+Testing Data -> https://raw.githubusercontent.com/freest-man/ChurnPrediction/main/train.csv
             
-Training Data ->  [https://raw.githubusercontent.com/freest-man/ChurnPrediction/main/test.csv]
+Training Data ->  https://raw.githubusercontent.com/freest-man/ChurnPrediction/main/test.csv
 "")
 
 
