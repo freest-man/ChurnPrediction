@@ -12,7 +12,7 @@ from PIL import Image
 import time
 
 
-logo = Image.open(r"https://raw.githubusercontent.com/freest-man/ChurnPrediction/main/banking.png") 
+logo = Image.open(r"https://github.com/freest-man/ChurnPrediction/blob/9c72b5327e1b415ab43c7268a76b802d5012d435/banking.png") 
 
 st.set_page_config(
     page_title="ABC Bank",
