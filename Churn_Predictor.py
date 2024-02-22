@@ -44,6 +44,13 @@ st.title('Upload the csv')
 
 url = "https://raw.githubusercontent.com/freest-man/ChurnPrediction/main/train.csv"
 
+st.markdown(""
+
+Testing Data -> [https://raw.githubusercontent.com/freest-man/ChurnPrediction/main/train.csv]
+            
+Training Data ->  [https://raw.githubusercontent.com/freest-man/ChurnPrediction/main/test.csv]
+"")
+
 
 uploaded_file = st.file_uploader("Choose a file")
 if uploaded_file is not None:
